@@ -23,9 +23,7 @@ class Konzis extends Component {
         const list = this.state.konzis.map( (konzi) =>
             <Konzi key={konzi._id} {...konzi} />
         );
-
         return <div className="konzis">{ list }</div>;
-
     }
 }
 
