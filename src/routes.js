@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
 import { Route, Switch, withRouter } from 'react-router-dom';
 
-import LandingView from './screens/landing-view/LandingView';
-import KonzisView from './screens/konzis-view/KonzisView';
+import MainView from './screens/main-view/MainView';
 
 export const ROUTES = {
-    SLASH: '/',
-    KONZIS: '/konzis',
+    SLASH: '/'
 };
 
 class RouteSetup extends Component {
@@ -19,8 +17,7 @@ class RouteSetup extends Component {
     render() {
         return (
             <Switch>
-                <Route exact path={ROUTES.SLASH} component={LandingView} />
-                <Route exact path={ROUTES.KONZIS} component={KonzisView} />} />
+                <Route exact path={ROUTES.SLASH} component={MainView} />
                 {/* <Route path="*" component={ErrorView} />} /> */}
             </Switch>
         );

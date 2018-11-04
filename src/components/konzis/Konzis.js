@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import config from '../../helpers/config';
 import './Konzis.scss';
+import Konzi from '../konzi/Konzi';
 
 class Konzis extends Component {
 
@@ -20,7 +21,7 @@ class Konzis extends Component {
 
     render() {
         const list = this.state.konzis.map( (konzi) =>
-            <div key={konzi._id} className="title">{konzi.title}</div>
+            <Konzi key={konzi._id} {...konzi} />
         );
 
         return <div className="konzis">{ list }</div>;

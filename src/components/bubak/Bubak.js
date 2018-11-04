@@ -9,9 +9,6 @@ class Bubak extends Component {
         <header className="bubak-header">
           <img src={logo} className="bubak-logo" alt="logo" />
           {/* <div className="bubak-overlay"></div> */}
-          <p>
-            Punk-Konzerte in der Oetinger Villa
-          </p>
         </header>
       </div>
     );
