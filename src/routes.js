@@ -8,11 +8,6 @@ export const ROUTES = {
 };
 
 class RouteSetup extends Component {
-    componentWillMount() {
-    }
-
-    componentWillUnmount() {
-    }
 
     render() {
         return (
