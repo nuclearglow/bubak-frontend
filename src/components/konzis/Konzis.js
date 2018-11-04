@@ -28,4 +28,4 @@ class Konzis extends Component {
     }
 }
 
-    export default Konzis;
+export default Konzis;
