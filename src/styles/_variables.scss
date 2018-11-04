@@ -1,0 +1,39 @@
+/* Define all SCSS variables here */
+@charset "UTF-8";
+
+// primary colors
+$color-primary-light: #fff;
+$color-primary-dark: #000;
+
+// secondary colors
+$color-info: #1c90d5;
+$color-success: #6ea92c;
+$color-warn: #dd8015;
+$color-error: rgb(231, 32, 6);
+
+// fonts
+$font-family: sans-serif;
+
+// custom bootstrap grid variables
+$screen-xs-min: 0; // mobile
+$screen-md-min: 768px; // tablet portrait
+$screen-lg-min: 992px; // small desktop & tablet landscape
+$screen-xl-min: 1440px; // desktop
+
+$screen-xs-max: ($screen-md-min - 1);
+$screen-md-max: ($screen-lg-min - 1);
+$screen-lg-max: ($screen-xl-min - 1);
+
+$grid-breakpoints: (
+    xs: $screen-xs-min,
+    md: $screen-md-min,
+    lg: $screen-lg-min,
+    xl: $screen-xl-min
+);
+
+$container-max-widths: (
+    xs: 720px,
+    md: 940px,
+    lg: 1140px,
+    xl: 1260px
+);
