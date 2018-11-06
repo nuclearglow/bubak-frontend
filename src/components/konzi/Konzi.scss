@@ -2,7 +2,15 @@
 .konzi {
     text-align: center;
 
-    .flyer {
-        max-width: 100vw;
+    .info {
+        font-family: 'thrashed';
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
     }
+}
+
+.flyer {
+    max-height: 300px;
+    max-width: 100vw;
 }
